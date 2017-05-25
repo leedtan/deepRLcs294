@@ -1,0 +1,39 @@
+3.6.0 |Anaconda custom (64-bit)| (default, Dec 23 2016, 12:22:00) 
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-1)]
+loading and building expert policy
+obs (1, 376) (1, 376)
+loaded and built
+iter 0
+100/1000
+iter 1
+100/1000
+iter 2
+100/1000
+iter 3
+100/1000
+200/1000
+300/1000
+400/1000
+500/1000
+iter 4
+100/1000
+200/1000
+300/1000
+400/1000
+500/1000
+returns [1462.7678036941795, 635.12410155223711, 1079.4949035472212, 4944.8199102925682, 5022.9641504573947]
+mean return 2629.03417391
+std of return 1940.65405896
+learning rate: 0.00990147542977
+Epoch:  101  avg train loss: 0.0191522390878  Reg Loss: 5.50843530772e-06 total time: 77.87658429145813
+avg loss validation: 0.0186442313831 failed count: 0
+learning rate: 0.00985329278164
+Epoch:  102  avg train loss: 0.0195735424972  Reg Loss: 5.36899646002e-06 total time: 158.90566420555115
+avg loss validation: 0.0190649933141 failed count: 1
+learning rate: 0.00980580675691
+Epoch:  103  avg train loss: 0.0195860878009  Reg Loss: 5.27845185811e-06 total time: 240.66402173042297
+avg loss validation: 0.0188037352841 failed count: 2
+learning rate: 0.00975900072949
+Epoch:  104  avg train loss: 0.0193109078192  Reg Loss: 5.20850528026e-06 total time: 322.3159832954407
+avg loss validation: 0.0182561711746 failed count: 0
+learning rate: 0.00971285862357

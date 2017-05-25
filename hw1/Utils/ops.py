@@ -72,7 +72,7 @@ def normalize_outgoing_likes(rating_events, unique_users, user_map):
     return rating_events
 
 
-def split_all_train_val(obs, act, split=.1):
+def split_all_train_val(obs, act, split=.001):
 
     shuffle  = np.random.permutation(obs.shape[0])
     partition = int(np.floor(obs.shape[0] * (1-split)))

@@ -1,0 +1,27 @@
+3.6.0 |Anaconda custom (64-bit)| (default, Dec 23 2016, 12:22:00) 
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-1)]
+loading and building expert policy
+obs (1, 376) (1, 376)
+loaded and built
+Backend Qt5Agg is interactive backend. Turning interactive mode on.
+Python 3.6.0 |Anaconda custom (64-bit)| (default, Dec 23 2016, 12:22:00) 
+Type "copyright", "credits" or "license" for more information.
+
+IPython 5.1.0 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+100
+iter 0
+iter 1
+iter 2
+100/1000
+iter 3
+100/1000
+iter 4
+100/1000
+returns [479.23826693232849, 595.62974987985024, 923.7227725134843, 720.43649584876687, 789.17203732583005]
+mean return 701.6398645
+std of return 153.646755686
+learning rate: 0.00990147542977

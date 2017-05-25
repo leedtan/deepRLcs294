@@ -45,7 +45,7 @@ def main():
 	print(sys.version)
 	
 	
-	returns, expert_data = pickle.load( open( "objs.pickle", "rb" ) )
+	returns, expert_data = pickle.load( open( "objs_dagger.pickle", "rb" ) )
 	
 	obs, act = expert_data['observations'], expert_data['actions']
 	
@@ -55,8 +55,9 @@ def main():
 	size_act = act.shape[1]
 	
 	model = Model(size_obs, size_act)
-	#model.restore()
-	
+	model.restore()
+	model.last_epoch=10
+	model.ModelPath = 'Models/daggerModel'
 	
 	import argparse
 	parser = argparse.ArgumentParser()
@@ -84,7 +85,7 @@ def main():
 		for dag in range(1000):
 			
 			returns = []
-			for i in range(args.num_rollouts):
+			for i in range(3):#(args.num_rollouts):
 				print('iter', i)
 				obs = env.reset()
 				done = False
@@ -111,8 +112,6 @@ def main():
 	
 			expert_data = {'observations': np.array(observations),
 						   'actions': np.array(actions)}
-			with open('objs.pickle', 'wb') as f:
-					pickle.dump([returns, expert_data], f)
 			
 			obs, act = np.array(observations), np.array(actions)
 			
@@ -121,9 +120,13 @@ def main():
 			
 			
 			
-			model.train(expert_train, expert_val, verb = 1, epochs = 5)
-			model.draw_learning_curve(show_graphs = False)
-
+			model.train(expert_train, expert_val, verb = 1, epochs = 2)
+			if (dag + 1) % 10 == 0:
+				model.draw_learning_curve(show_graphs = False)
+				with open('objs_dagger.pickle', 'wb') as f:
+					pickle.dump([returns, expert_data], f)
+				
+				
 	
 	
 	'''

@@ -25,7 +25,7 @@ def drop(x):
 
 class Model():
 	
-	def __init__(self, size_obs, size_act, net_struct = [300, 300, 300, 300]):
+	def __init__(self, size_obs, size_act, net_struct = [300, 300, 300]):
 		
 		self.ModelPath = 'Models/MatchingModel'
         
@@ -36,6 +36,7 @@ class Model():
 		self.obs = tf.placeholder(tf.float32, shape=(None))
 
 		activation = self.obs
+		act_test = self.obs
 		prev_layer_size = size_obs
 		#Hidden layers
 		self.l2_reg = 1e-8
@@ -47,11 +48,14 @@ class Model():
 			w = tf.Variable(tf.random_uniform([prev_layer_size, l],minval = -1., maxval = 1.), name='net_w_' + str(idx)) * 1e-2
 			b = tf.Variable(tf.random_uniform([l],minval = -1., maxval = 1.), name='net_bias_' + str(idx)) * 1e-2
 			activation = tf.concat((activation, ops.lrelu(bn(tf.matmul(activation, w) + b))), 1)
+			act_test = tf.concat((act_test, ops.lrelu(bn(tf.matmul(act_test, w) + b, train=False))), 1)
 			prev_layer_size += l
 			
 		w = tf.Variable(tf.random_uniform([prev_layer_size, size_act],minval = -1., maxval = 1.), name='net_output_w') * 1e-2
 		b = tf.Variable(tf.random_uniform([size_act],minval = -1., maxval = 1.), name='net_output_bias') * 1e-2
 		self.yhat = tf.reshape(tf.matmul(activation, w) + b, [-1, size_act])
+		
+		self.yhat_test = tf.reshape(tf.matmul(act_test, w) + b, [-1, size_act])
 		
 		self.act = tf.placeholder(tf.float32, shape=(None))
 		
@@ -85,7 +89,7 @@ class Model():
 		
 		
 		
-	def train(self, expert_train, expert_val, batch_size = 4096, verb = 1, epochs = 100):
+	def train(self, expert_train, expert_val, batch_size = 256, verb = 1, epochs = 100):
 		
 		trn_obs = expert_train['observations']
 		trn_act = expert_train['actions']
@@ -162,7 +166,7 @@ class Model():
 	#Currently, can be done in one batch for validation. This function can be batched if needed.
 	def get_yhat(self, obs):
 		
-		yhat = self.session.run(self.yhat, {self.obs: obs})
+		yhat = self.session.run(self.yhat_test, {self.obs: obs})
 		return yhat
 	
 	def draw_learning_curve(self, show_graphs = False):

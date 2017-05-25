@@ -40,7 +40,7 @@ sys.stdout = Logger("logs/" + str(os.path.basename(sys.argv[0])) +
 print(sys.version)
 
 
-returns, expert_data = pickle.load( open( "objs.pickle", "rb" ) )
+returns, expert_data = pickle.load( open( "objs_dagger.pickle", "rb" ) )
 
 obs, act = expert_data['observations'], expert_data['actions']
 
@@ -53,6 +53,6 @@ model = Model(size_obs, size_act)
 
 
 
-model.train(expert_train, expert_val, verb = 1, epochs = 10000)
+model.train(expert_train, expert_val, verb = 1, epochs = 10)
 model.draw_learning_curve()
 

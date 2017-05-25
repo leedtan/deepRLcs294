@@ -67,8 +67,8 @@ def main():
 
 		expert_data = {'observations': np.array(observations),
 					   'actions': np.array(actions)}
-		#with open('objs.pickle', 'wb') as f:
-		#		pickle.dump([returns, expert_data], f)
+		with open('objs_dagger.pickle', 'wb') as f:
+				pickle.dump([returns, expert_data], f)
 	
 	'''
 	with open('objs.pickle', 'rb') as f:  # Python 3: open(..., 'rb')

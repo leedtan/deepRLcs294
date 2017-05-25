@@ -1,0 +1,20 @@
+3.6.0 |Anaconda custom (64-bit)| (default, Dec 23 2016, 12:22:00) 
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-1)]
+loading and building expert policy
+obs (1, 376) (1, 376)
+loaded and built
+iter 0
+100/1000
+iter 1
+100/1000
+iter 2
+100/1000
+200/1000
+iter 3
+100/1000
+iter 4
+100/1000
+200/1000
+returns [1288.0763875986788, 1468.4738629650819, 2069.1408601294652, 1058.7241935686905, 1858.5155146891741]
+mean return 1548.58616379
+std of return 369.12910168

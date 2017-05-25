@@ -1,0 +1,36 @@
+3.6.0 |Anaconda custom (64-bit)| (default, Dec 23 2016, 12:22:00) 
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-1)]
+learning rate: 0.0707106781187
+Epoch:  1  avg train loss: 0.501689331979  Reg Loss: 8.17462371893e-07 total time: 71.57576179504395
+avg loss validation: 0.0941861 failed count: 0
+learning rate: 0.057735026919
+Epoch:  2  avg train loss: 0.0890417450906  Reg Loss: 1.08392390982e-06 total time: 143.846825838089
+avg loss validation: 0.0800689 failed count: 0
+learning rate: 0.05
+Epoch:  3  avg train loss: 0.0711553178575  Reg Loss: 1.16053218728e-06 total time: 216.57227110862732
+avg loss validation: 0.0701605 failed count: 0
+learning rate: 0.04472135955
+Epoch:  4  avg train loss: 0.0630468278623  Reg Loss: 1.18690430933e-06 total time: 288.7641279697418
+avg loss validation: 0.060743 failed count: 0
+learning rate: 0.0408248290464
+Epoch:  5  avg train loss: 0.0571014689596  Reg Loss: 1.20268694258e-06 total time: 362.1478180885315
+avg loss validation: 0.0610133 failed count: 1
+learning rate: 0.0377964473009
+Epoch:  6  avg train loss: 0.0534759277527  Reg Loss: 1.21334507931e-06 total time: 435.1613931655884
+avg loss validation: 0.051388 failed count: 0
+learning rate: 0.0353553390593
+Epoch:  7  avg train loss: 0.0503204456575  Reg Loss: 1.220698953e-06 total time: 507.6807703971863
+avg loss validation: 0.0480925 failed count: 0
+learning rate: 0.0333333333333
+Epoch:  8  avg train loss: 0.0478011105859  Reg Loss: 1.22494238251e-06 total time: 579.9394726753235
+avg loss validation: 0.0620486 failed count: 1
+learning rate: 0.0316227766017
+Epoch:  9  avg train loss: 0.045615568074  Reg Loss: 1.22703714774e-06 total time: 651.2616629600525
+avg loss validation: 0.0568164 failed count: 2
+learning rate: 0.0301511344578
+Epoch:  10  avg train loss: 0.0440661777968  Reg Loss: 1.22946587044e-06 total time: 722.6668264865875
+avg loss validation: 0.0533407 failed count: 3
+learning rate: 0.0288675134595
+Epoch:  11  avg train loss: 0.0424470684477  Reg Loss: 1.2296798523e-06 total time: 795.1955053806305
+avg loss validation: 0.0503979 failed count: 4
+learning rate: 0.0277350098113

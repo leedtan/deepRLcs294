@@ -1,0 +1,6 @@
+3.6.0 |Anaconda custom (64-bit)| (default, Dec 23 2016, 12:22:00) 
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-1)]
+learning rate: 0.0707106781187
+Epoch:  1  avg train loss: 0.19960461985  Reg Loss: 4.35974000775e-06 total time: 82.10637545585632
+avg loss validation: 0.0715703 failed count: 0
+learning rate: 0.057735026919
