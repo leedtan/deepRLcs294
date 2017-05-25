@@ -1,0 +1,79 @@
+3.6.0 |Anaconda custom (64-bit)| (default, Dec 23 2016, 12:22:00) 
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-1)]
+Epoch:  1  avg train loss: 15.4391280975  Reg Loss: 4.83904113935e-07 total time: 0.5636506080627441
+avg loss validation: 10.2029 failed count: 0
+Epoch:  2  avg train loss: 6.44305137253  Reg Loss: 4.95908214361e-07 total time: 1.547719955444336
+avg loss validation: 4.15695 failed count: 0
+Epoch:  3  avg train loss: 2.72543851757  Reg Loss: 5.12749185873e-07 total time: 2.6178977489471436
+avg loss validation: 1.90121 failed count: 0
+Epoch:  4  avg train loss: 1.44607597828  Reg Loss: 5.27033371327e-07 total time: 3.6032755374908447
+avg loss validation: 1.19083 failed count: 0
+Epoch:  5  avg train loss: 1.01936048508  Reg Loss: 5.37016505405e-07 total time: 4.604523420333862
+avg loss validation: 0.922036 failed count: 0
+Epoch:  6  avg train loss: 0.829296365261  Reg Loss: 5.4430572709e-07 total time: 5.5750813484191895
+avg loss validation: 0.779119 failed count: 0
+Epoch:  7  avg train loss: 0.716258595943  Reg Loss: 5.49974440219e-07 total time: 6.6245222091674805
+avg loss validation: 0.685821 failed count: 0
+Epoch:  8  avg train loss: 0.637543232441  Reg Loss: 5.54872196517e-07 total time: 7.595088005065918
+avg loss validation: 0.6169 failed count: 0
+Epoch:  9  avg train loss: 0.577900446892  Reg Loss: 5.59401305509e-07 total time: 8.59663462638855
+avg loss validation: 0.563325 failed count: 0
+Epoch:  10  avg train loss: 0.530494145393  Reg Loss: 5.63470708585e-07 total time: 9.590712785720825
+avg loss validation: 0.520006 failed count: 0
+Epoch:  11  avg train loss: 0.492048987865  Reg Loss: 5.67390565266e-07 total time: 10.568660974502563
+avg loss validation: 0.484282 failed count: 0
+Epoch:  12  avg train loss: 0.460005110264  Reg Loss: 5.71131920879e-07 total time: 11.696573972702026
+avg loss validation: 0.454675 failed count: 0
+Epoch:  13  avg train loss: 0.432941011667  Reg Loss: 5.74847148528e-07 total time: 12.872519969940186
+avg loss validation: 0.429327 failed count: 0
+Epoch:  14  avg train loss: 0.409729048729  Reg Loss: 5.78454360948e-07 total time: 14.08211612701416
+avg loss validation: 0.407118 failed count: 0
+Epoch:  15  avg train loss: 0.389372859478  Reg Loss: 5.82020511501e-07 total time: 15.231280088424683
+avg loss validation: 0.387905 failed count: 0
+Epoch:  16  avg train loss: 0.371474704742  Reg Loss: 5.85538669839e-07 total time: 16.22558045387268
+avg loss validation: 0.370812 failed count: 0
+Epoch:  17  avg train loss: 0.35560042882  Reg Loss: 5.89075309108e-07 total time: 17.30646777153015
+avg loss validation: 0.355563 failed count: 0
+Epoch:  18  avg train loss: 0.341558999777  Reg Loss: 5.92590837186e-07 total time: 18.3592050075531
+avg loss validation: 0.342173 failed count: 0
+Epoch:  19  avg train loss: 0.329013222218  Reg Loss: 5.960011149e-07 total time: 19.47850012779236
+avg loss validation: 0.330011 failed count: 0
+Epoch:  20  avg train loss: 0.317733727217  Reg Loss: 5.99456700002e-07 total time: 20.543657779693604
+avg loss validation: 0.319225 failed count: 0
+Epoch:  21  avg train loss: 0.307534583807  Reg Loss: 6.02819203777e-07 total time: 21.564534187316895
+avg loss validation: 0.309357 failed count: 0
+Epoch:  22  avg train loss: 0.298299839973  Reg Loss: 6.06223871728e-07 total time: 22.661003828048706
+avg loss validation: 0.300402 failed count: 0
+Epoch:  23  avg train loss: 0.289933748484  Reg Loss: 6.09520331636e-07 total time: 23.637349128723145
+avg loss validation: 0.292353 failed count: 0
+Epoch:  24  avg train loss: 0.282363229752  Reg Loss: 6.12859839748e-07 total time: 24.675321340560913
+avg loss validation: 0.284976 failed count: 0
+Epoch:  25  avg train loss: 0.275433160782  Reg Loss: 6.16199897195e-07 total time: 25.771795988082886
+avg loss validation: 0.278214 failed count: 0
+Epoch:  26  avg train loss: 0.269053530931  Reg Loss: 6.1942719185e-07 total time: 26.82987928390503
+avg loss validation: 0.272043 failed count: 0
+Epoch:  27  avg train loss: 0.263187392473  Reg Loss: 6.2258852995e-07 total time: 27.910348176956177
+avg loss validation: 0.266379 failed count: 0
+Epoch:  28  avg train loss: 0.257828360796  Reg Loss: 6.25797860266e-07 total time: 28.894259452819824
+avg loss validation: 0.261115 failed count: 0
+Epoch:  29  avg train loss: 0.252740605593  Reg Loss: 6.28941146715e-07 total time: 29.878952026367188
+avg loss validation: 0.256296 failed count: 0
+Epoch:  30  avg train loss: 0.24815068388  Reg Loss: 6.32051418506e-07 total time: 30.931992530822754
+avg loss validation: 0.251662 failed count: 0
+Epoch:  31  avg train loss: 0.243811390877  Reg Loss: 6.35127827991e-07 total time: 31.988516807556152
+avg loss validation: 0.247507 failed count: 0
+Epoch:  32  avg train loss: 0.239781879544  Reg Loss: 6.38184777927e-07 total time: 33.02720403671265
+avg loss validation: 0.243455 failed count: 0
+Epoch:  33  avg train loss: 0.235996230721  Reg Loss: 6.41271999484e-07 total time: 34.07790946960449
+avg loss validation: 0.239807 failed count: 0
+Epoch:  34  avg train loss: 0.232453134179  Reg Loss: 6.44246050797e-07 total time: 35.14482235908508
+avg loss validation: 0.236246 failed count: 0
+Epoch:  35  avg train loss: 0.229115653038  Reg Loss: 6.47270189802e-07 total time: 36.216747999191284
+avg loss validation: 0.232955 failed count: 0
+Epoch:  36  avg train loss: 0.225928840637  Reg Loss: 6.50237332593e-07 total time: 37.33028197288513
+avg loss validation: 0.229909 failed count: 0
+Epoch:  37  avg train loss: 0.222934425592  Reg Loss: 6.53180573863e-07 total time: 38.50117254257202
+avg loss validation: 0.226987 failed count: 0
+Epoch:  38  avg train loss: 0.2201133641  Reg Loss: 6.56132611766e-07 total time: 39.587236404418945
+avg loss validation: 0.224178 failed count: 0
+Epoch:  39  avg train loss: 0.217445354223  Reg Loss: 6.59021901811e-07 total time: 40.63240051269531

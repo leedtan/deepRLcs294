@@ -1,0 +1,2 @@
+model_checkpoint_path: "MatchingModel"
+all_model_checkpoint_paths: "MatchingModel"

@@ -1,0 +1,29 @@
+3.6.0 |Anaconda custom (64-bit)| (default, Dec 23 2016, 12:22:00) 
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-1)]
+loading and building expert policy
+obs (1, 376) (1, 376)
+loaded and built
+iter 0
+Backend Qt5Agg is interactive backend. Turning interactive mode on.
+array([[ 1.14801633,  0.03529666, -0.30062684, -0.39931116,  0.23010999,
+         1.82575548,  0.06326956, -0.19418138,  0.26728055,  1.66205025,
+         1.04594314,  0.53171408, -0.8676281 ,  0.32671916, -0.41718116,
+         0.19549659,  0.03950855]], dtype=float32)
+Python 3.6.0 |Anaconda custom (64-bit)| (default, Dec 23 2016, 12:22:00) 
+Type "copyright", "credits" or "license" for more information.
+
+IPython 5.1.0 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+array([[ 1.79923749,  0.09309868, -0.39814577, -0.38316849,  0.01290232,
+         2.79550409,  0.17239445, -0.22037302,  0.10133085,  2.49919534,
+         1.01315141,  0.52040553, -1.92729592,  0.49638098, -0.7761519 ,
+        -0.14402698,  0.46445751]], dtype=float32)
+(1, 17)
+array([[ 1.14801633,  0.03529666, -0.30062684, -0.39931116,  0.23010999,
+         1.82575548,  0.06326956, -0.19418138,  0.26728055,  1.66205025,
+         1.04594314,  0.53171408, -0.8676281 ,  0.32671916, -0.41718116,
+         0.19549659,  0.03950855]], dtype=float32)
+(1, 17)
